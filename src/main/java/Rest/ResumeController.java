@@ -14,7 +14,7 @@ public class ResumeController {
     @RequestMapping(value="{id}", method = RequestMethod.GET)
     public @ResponseBody Resume getResumeInXML(@PathVariable String id){
 
-        Resume resumes = new Resume("Amara", "Safia", "objectif");
+        Resume resumes = new Resume("Amara", "Safia", "Mes objectif");
         return resumes;
     }
 
