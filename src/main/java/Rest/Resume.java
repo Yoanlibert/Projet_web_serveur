@@ -17,6 +17,10 @@ public class Resume {
     LinkedList<String> scolarites;
     LinkedList<String> langues;
 
+
+    public Resume (){
+        
+    }
     public String getName (){
         return name;
     }
