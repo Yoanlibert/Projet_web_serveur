@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.*;
 public class ResumeController {
 
     @RequestMapping(value="{id}", method = RequestMethod.GET)
-    public @ResponseBody Resume getResumeInXML(@PathVariable int id){
+    public @ResponseBody Resume getResumeInXML(@PathVariable String id){
 
         Resume resumes = new Resume("Amara", "Safia", "objectif");
         return resumes;

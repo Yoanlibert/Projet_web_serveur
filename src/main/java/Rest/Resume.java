@@ -9,7 +9,7 @@ import java.util.LinkedList;
  */
 @XmlRootElement(name = "Resume")
 public class Resume {
-    @XmlElement
+
     String name;
     String prenom;
     String objectif;
