@@ -34,7 +34,7 @@ public class ResumeController {
     public @ResponseBody
     Resume getResumeInXMLById(@PathVariable String id){
 
-        Resume resumes = new Resume("Amara", "Safia", new Date(), "Mes objectif");
+        Resume resumes = new Resume("Amara", "Safia", /*new Date(),*/ "Mes objectif");
         return resumes;
     }
 
@@ -43,10 +43,10 @@ public class ResumeController {
 
     }*/
 
-    @Autowired
+    /*@Autowired
     public void setResumeService(Resume resumeService) {
         this.resumeService = resumeService;
-    }
+    }*/
 
 
 

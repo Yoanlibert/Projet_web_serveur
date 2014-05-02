@@ -101,16 +101,16 @@ public class Resume {
         this.langues = langues;
     }
 
-    public Resume (String name, String prenom, Date dateNaissance, String objectif){
-        super();
+    public Resume (String name, String prenom,/* Date dateNaissance, */String objectif){
+       // super();
         this.name=name;
         this.prenom=prenom;
-        this.dateNaissance=dateNaissance;
+       // this.dateNaissance=dateNaissance;
         this.objectif=objectif;
     }
 
-    public Resume findAll(){
+   /* public Resume findAll(){
         Resume resumeAll = new Resume();
         return resumeAll;
-    }
+    }*/
 }
