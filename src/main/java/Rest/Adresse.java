@@ -13,6 +13,13 @@ public class Adresse {
 
     }
 
+    public Adresse (String rue, int codePostal, String ville, String pays){
+        this.rue=rue;
+        this.codePostal=codePostal;
+        this.ville=ville;
+        this.pays=pays;
+    }
+
     public String getRue() {
         return rue;
     }

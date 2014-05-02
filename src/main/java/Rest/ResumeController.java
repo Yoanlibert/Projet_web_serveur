@@ -34,7 +34,9 @@ public class ResumeController {
     public @ResponseBody
     Resume getResumeInXMLById(@PathVariable String id){
 
-        Resume resumes = new Resume("Amara", "Safia", new Date(), "Mes objectif");
+        Resume resumes = new Resume("Amara", "Safia", "10-10-1990",
+        "Jeune étudiante avec Bac+4 en phase de démmarage souhaitant evoluer et gagner de l'expérience",
+        "Maîtrise des languages de programmation : Java, PHP/MySql; </br> Oracle; </br> UML");
         return resumes;
     }
 

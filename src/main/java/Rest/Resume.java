@@ -21,13 +21,14 @@ public class Resume {
     private String name;
     private String prenom;
    // private int age;
-    private Date dateNaissance;
+    private String dateNaissance;
     private String objectif;
     @XmlElementWrapper(name = "Residence")
       @XmlElement(name = "adresse")
     protected List<Adresse> adresses = new ArrayList<Adresse>();
 
     LinkedList<String> experiencePro;
+    private String competence;
     LinkedList<String> scolarites;
     LinkedList<String> langues;
 
@@ -45,7 +46,7 @@ public class Resume {
     }
 
     //@XmlJavaTypeAdapter(DateAdapter.class)
-    public Date getDateNaissance() {
+    public String getDateNaissance() {
         return dateNaissance;
     }
 
@@ -56,6 +57,10 @@ public class Resume {
     /*public List<Adresse> getAdresses() {
         return adresses;
     }*/
+
+    public String getCompetence() {
+        return competence;
+    }
 
     public LinkedList<String> getExperiencePro() {
         return experiencePro;
@@ -77,7 +82,7 @@ public class Resume {
         this.prenom = prenom;
     }
 
-    public void setDateNaissance(Date dateNaissance) {
+    public void setDateNaissance(String dateNaissance) {
         this.dateNaissance = dateNaissance;
     }
 
@@ -101,12 +106,17 @@ public class Resume {
         this.langues = langues;
     }
 
-    public Resume (String name, String prenom, Date dateNaissance, String objectif){
+    public void setCompetence(String competence) {
+        this.competence = competence;
+    }
+
+    public Resume (String name, String prenom, String dateNaissance, String objectif, String competence/*, List<Adresse> adresses*/){
        // super();
         this.name=name;
         this.prenom=prenom;
         this.dateNaissance=dateNaissance;
         this.objectif=objectif;
+        this.competence=competence;
     }
 
    /* public Resume findAll(){
