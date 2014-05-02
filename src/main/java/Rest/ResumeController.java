@@ -22,13 +22,13 @@ public class ResumeController {
         return list;
     }
 
-    @RequestMapping(method = RequestMethod.GET)
+   /* @RequestMapping(method = RequestMethod.GET)
     public @ResponseBody
     Resume getResumeInXML(Model model){
 
         model.addAttribute("resumes", resumeService.findAll());
         return resumeService;
-    }
+    }*/
 
     @RequestMapping(value="{id}", method = RequestMethod.GET)
     public @ResponseBody
