@@ -15,7 +15,7 @@ import java.util.Date;
 @RequestMapping("/Resume")
 public class ResumeController {
 
-    private Resume resumeService;
+   // private Resume resumeService;
 
     ResumeList getResumes() {
         ResumeList list = new ResumeList();
@@ -34,7 +34,7 @@ public class ResumeController {
     public @ResponseBody
     Resume getResumeInXMLById(@PathVariable String id){
 
-        Resume resumes = new Resume("Amara", "Safia", /*new Date(),*/ "Mes objectif");
+        Resume resumes = new Resume("Amara", "Safia", new Date(), "Mes objectif");
         return resumes;
     }
 
