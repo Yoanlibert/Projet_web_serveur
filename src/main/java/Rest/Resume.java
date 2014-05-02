@@ -15,7 +15,7 @@ import java.util.List;
  */
 @XmlRootElement(name = "Resume")
 @XmlType(propOrder = {"name", "prenom", "dateNaissance", "objectif",
-                      "adresses","experiencePro", "scolarites", "langues"})
+                      "experiencePro", "scolarites", "langues"})
 public class Resume {
 
     private String name;
@@ -53,9 +53,9 @@ public class Resume {
         return objectif;
     }
 
-    public List<Adresse> getAdresses() {
+    /*public List<Adresse> getAdresses() {
         return adresses;
-    }
+    }*/
 
     public LinkedList<String> getExperiencePro() {
         return experiencePro;
@@ -85,9 +85,9 @@ public class Resume {
         this.objectif = objectif;
     }
 
-    public void setAdresses(List<Adresse> adresses) {
+   /* public void setAdresses(List<Adresse> adresses) {
         this.adresses = adresses;
-    }
+    }*/
 
     public void setExperiencePro(LinkedList<String> experiencePro) {
         this.experiencePro = experiencePro;
