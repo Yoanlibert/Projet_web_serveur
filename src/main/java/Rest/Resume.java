@@ -14,8 +14,8 @@ import java.util.List;
  * Created by Amara Safia on 08/04/14.
  */
 @XmlRootElement(name = "Resume")
-@XmlType(propOrder = {"name", "prenom", "dateNaissance", "objectif",
-                      "experiencePro", "scolarites", "langues"})
+/*@XmlType(propOrder = {"name", "prenom", "dateNaissance", "objectif",
+                      "experiencePro", "scolarites", "langues"})*/
 public class Resume {
 
     private String name;
