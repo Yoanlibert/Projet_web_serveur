@@ -110,13 +110,14 @@ public class Resume {
         this.competence = competence;
     }
 
-    public Resume(String name, String prenom, String dateNaissance, String objectif, String competence){
+    public Resume(String name, String prenom, String dateNaissance, String objectif, String competence, List <Adresse> adresses){
         super();
         this.name=name;
         this.prenom=prenom;
         this.dateNaissance=dateNaissance;
         this.objectif=objectif;
         this.competence=competence;
+        this.adresses=adresses;
     }
 
    /* public Resume findAll(){
