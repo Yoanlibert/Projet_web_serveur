@@ -33,7 +33,7 @@ public class Resume {
     LinkedList<String> langues;
 
 
-    public Resume (){
+    public Resume(String amara, String safia, String s, String s1, String s2, Adresse adresse){
 
     }
 
@@ -110,8 +110,8 @@ public class Resume {
         this.competence = competence;
     }
 
-    public Resume (String name, String prenom, String dateNaissance, String objectif, String competence/*, List<Adresse> adresses*/){
-       // super();
+    public Resume(String name, String prenom, String dateNaissance, String objectif, String competence){
+        super();
         this.name=name;
         this.prenom=prenom;
         this.dateNaissance=dateNaissance;
