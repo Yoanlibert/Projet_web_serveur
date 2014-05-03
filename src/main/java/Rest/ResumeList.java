@@ -9,5 +9,6 @@ import java.util.List;
 
 @XmlRootElement
 public class ResumeList {
+
     public List<Resume> resumes;
 }

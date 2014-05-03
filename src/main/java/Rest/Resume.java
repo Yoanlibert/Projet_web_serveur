@@ -1,39 +1,36 @@
 package Rest;
 
-import javax.xml.bind.annotation.XmlElement;
-import javax.xml.bind.annotation.XmlElementWrapper;
 import javax.xml.bind.annotation.XmlRootElement;
 import javax.xml.bind.annotation.XmlType;
-import javax.xml.bind.annotation.adapters.XmlJavaTypeAdapter;
-import java.util.ArrayList;
-import java.util.Date;
-import java.util.LinkedList;
-import java.util.List;
 
 /**
  * Created by Amara Safia on 08/04/14.
  */
 @XmlRootElement(name = "Resume")
-/*@XmlType(propOrder = {"name", "prenom", "dateNaissance", "objectif",
-                      "experiencePro", "scolarites", "langues"})*/
+/*@XmlType(propOrder = {"name", "prenom", "dateNaissance","numTel", "mesAdresses",  "objectif",
+                      "mesexp", "scolarites", "competence", "langues", "competenceInfo"})*/
 public class Resume {
 
     private String name;
     private String prenom;
-   // private int age;
     private String dateNaissance;
+    private String numTel;
+    public Adresse mesAdresses;
     private String objectif;
-    @XmlElementWrapper(name = "Residence")
+
+   /* @XmlElementWrapper(name = "Residence")
       @XmlElement(name = "adresse")
-    protected List<Adresse> adresses = new ArrayList<Adresse>();
+    protected List<Adresse> adresses = new ArrayList<Adresse>();*/
 
-    LinkedList<String> experiencePro;
+    public ExperciencePro mesexp;
+    public Scolarites scolarites;
     private String competence;
-    LinkedList<String> scolarites;
-    LinkedList<String> langues;
+    public Langues langues;
+    public CompetenceInfo competenceInfo;
 
 
-    public Resume(String amara, String safia, String s, String s1, String s2, Adresse adresse){
+
+    public Resume(){
 
     }
 
@@ -50,6 +47,10 @@ public class Resume {
         return dateNaissance;
     }
 
+    public String getNumTel() {
+        return numTel;
+    }
+
     public String getObjectif() {
         return objectif;
     }
@@ -60,18 +61,6 @@ public class Resume {
 
     public String getCompetence() {
         return competence;
-    }
-
-    public LinkedList<String> getExperiencePro() {
-        return experiencePro;
-    }
-
-    public LinkedList<String> getScolarites() {
-        return scolarites;
-    }
-
-    public LinkedList<String> getLangues() {
-        return langues;
     }
 
     public void setName(String name) {
@@ -94,34 +83,24 @@ public class Resume {
         this.adresses = adresses;
     }*/
 
-    public void setExperiencePro(LinkedList<String> experiencePro) {
-        this.experiencePro = experiencePro;
-    }
-
-    public void setScolarites(LinkedList<String> scolarites) {
-        this.scolarites = scolarites;
-    }
-
-    public void setLangues(LinkedList<String> langues) {
-        this.langues = langues;
-    }
-
     public void setCompetence(String competence) {
         this.competence = competence;
     }
 
-    public Resume(String name, String prenom, String dateNaissance, String objectif, String competence, List <Adresse> adresses){
-        super();
+    public Resume(String name, String prenom, String dateNaissance, String numTel, Adresse adresse, String objectif, ExperciencePro mesexp, Scolarites scolarites,String competence, Langues langues, CompetenceInfo competenceInfo ){
+        //super();
         this.name=name;
         this.prenom=prenom;
         this.dateNaissance=dateNaissance;
+        this.numTel=numTel;
+        this.mesAdresses=adresse;
         this.objectif=objectif;
+        this.mesexp=mesexp;
+        this.scolarites=scolarites;
         this.competence=competence;
-        this.adresses=adresses;
+        this.langues = langues;
+        this.competenceInfo=competenceInfo;
+
     }
 
-   /* public Resume findAll(){
-        Resume resumeAll = new Resume();
-        return resumeAll;
-    }*/
 }
