@@ -23,7 +23,7 @@ public class ResumeController {
      */
 
     public void addResume(){
-        Adresse adresseList = new Adresse();
+        /*Adresse adresseList = new Adresse();
         adresseList.addAdresses("37 rue du Maréchal Juin, 76130 Mont Saint Aignan", "Rouen, France");
 
         ExperciencePro mesexpList = new ExperciencePro();
@@ -59,7 +59,7 @@ public class ResumeController {
 
         list.resumes.add(resumes1);
         list.resumes.add(resumes2);
-        list.resumes.add(resumes3);
+        list.resumes.add(resumes3);*/
 
     }
 
