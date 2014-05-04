@@ -14,8 +14,8 @@ public class ResumeController {
     ResumeList list;
 
     ResumeList getResumes() {
-        ResumeList listCv = new ResumeList();
-        return listCv;
+        ResumeList listResume = new ResumeList();
+        return listResume;
     }
 
     /**
@@ -68,7 +68,7 @@ public class ResumeController {
      * @param id
      * @return
      */
-   /* @RequestMapping(value="{id}", method = RequestMethod.GET)
+  /*  @RequestMapping(value="{id}", method = RequestMethod.GET)
     public @ResponseBody
     Resume getResumeInXMLById(@PathVariable String id){
         //return list.resumes.get(Integer.parseInt(id));
@@ -108,10 +108,9 @@ public class ResumeController {
      * Get, toute la liste de resumes
      * @return
      */
-    @RequestMapping(method = RequestMethod.GET)
+    @RequestMapping(value="{*}", method = RequestMethod.GET)
     public @ResponseBody
     ResumeList getResumeInXML(){
-        ResumeList list = new ResumeList();
         return list;
     }
 
