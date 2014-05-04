@@ -13,7 +13,7 @@ import java.util.Map;
 @XmlRootElement
 public class Langues {
 
-    public Map<String,String> MesLangues = new HashMap<String, String>();
+    private Map<String,String> MesLangues = new HashMap<String, String>();
 
     @XmlElement
     public Map<String,String> getMesLangues(){

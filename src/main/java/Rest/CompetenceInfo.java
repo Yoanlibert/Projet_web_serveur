@@ -12,7 +12,7 @@ import java.util.Map;
 @XmlRootElement
 public class CompetenceInfo {
 
-    public Map<String,String> MesCompetencesInfo = new HashMap<String, String>();
+    private Map<String,String> MesCompetencesInfo = new HashMap<String, String>();
 
     @XmlElement
     public Map<String,String> getMesCompetencesInfo(){

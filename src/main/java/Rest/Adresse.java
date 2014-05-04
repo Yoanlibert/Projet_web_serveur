@@ -3,7 +3,9 @@ package Rest;
 import javax.xml.bind.annotation.XmlElement;
 import javax.xml.bind.annotation.XmlRootElement;
 import java.util.HashMap;
+import java.util.Iterator;
 import java.util.Map;
+import java.util.Set;
 
 /**
  * Created by Amara Safia on 02/05/14.
@@ -11,7 +13,7 @@ import java.util.Map;
 @XmlRootElement
 public class Adresse {
 
-    public Map<String,String> MesAdresses = new HashMap<String, String>();
+    private Map<String,String> MesAdresses = new HashMap<String, String>();
 
     @XmlElement
     public Map<String,String> getMesAdresses(){
@@ -21,7 +23,18 @@ public class Adresse {
     public void addAdresses (String rue,String pays){
         MesAdresses.put(rue,pays);
     }
-
+/******************************************************************
+    //methode toString
+    public String toString(){
+        Set<String> cles = MesAdresses.keySet();
+        StringBuffer message = new StringBuffer();
+        for(Iterator it = cles.iterator(); it.hasNext();){
+            message.append(MesAdresses.get(it.next()));
+            message.append("  ");
+        }
+        return message.toString();
+    }
+/*******************************************************************/
 
    /* private String rue;
     private int codePostal;

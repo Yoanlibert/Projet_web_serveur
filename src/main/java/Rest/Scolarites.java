@@ -12,7 +12,7 @@ import java.util.Map;
 @XmlRootElement
 public class Scolarites {
 
-    public Map<String,String> MesScolarites = new HashMap<String, String>();
+    private Map<String,String> MesScolarites = new HashMap<String, String>();
 
     @XmlElement
     public Map<String,String> getMesScolarites(){

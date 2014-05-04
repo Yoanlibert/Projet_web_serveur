@@ -12,7 +12,7 @@ import java.util.Map;
 @XmlRootElement
 public class ExperciencePro {
 
-    public Map<String,String> MesExperiences = new HashMap<String, String>();
+    private Map<String,String> MesExperiences = new HashMap<String, String>();
 
     @XmlElement
     public Map<String,String> getMesExperiences(){
