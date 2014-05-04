@@ -14,8 +14,8 @@ public class ResumeController {
     ResumeList list;
 
     ResumeList getResumes() {
-        ResumeList list = new ResumeList();
-        return list;
+        ResumeList listCv = new ResumeList();
+        return listCv;
     }
 
     /**
@@ -78,24 +78,31 @@ public class ResumeController {
      * Get, toute la liste de resumes
      * @return
      */
-    @RequestMapping(value="*", method = RequestMethod.GET)
+   /* @RequestMapping(value="{*}", method = RequestMethod.GET)
     public @ResponseBody
-    ResumeList getResumeInXMLById(){
+    ResumeList getResumeInXML(){
         return list;
-    }
+    }*/
 
     /**
      * Delete un resume avec un identifiant
      * @param id
      */
-    @RequestMapping(value="{id}", method = RequestMethod.DELETE)
+   /* @RequestMapping(value="{id}", method = RequestMethod.DELETE)
     public @ResponseBody
     void deleteResumeInXMLById(@PathVariable String id){
         list.resumes.remove(Integer.parseInt(id));
-    }
-    /*@RequestMapping(value = "{id}", method = RequestMethod.PUT)
-    public @ResponseBody Resume getResumesInXML(@PathVariable String id){
+    }*/
 
+    /**
+     * PUT, Ajout d'un resume
+     * @param id
+     * @return
+     */
+    /*@RequestMapping(value = "{id}", method = RequestMethod.PUT)
+    public @ResponseBody
+    Resume addResumesInXML(@PathVariable String id){
+         list.resumes.add(Integer.parseInt(id));
     }*/
 
     /*@Autowired
