@@ -3,8 +3,6 @@ package Rest;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
 
-import java.util.List;
-
 /**
  * Created by Amara Safia on 08/04/14.
  */
@@ -24,7 +22,7 @@ public class ResumeController {
      * La liste des resumes
      */
 
-   public void addResume(){
+   /*public void addResume(){
         Adresse adresseList = new Adresse();
         adresseList.addAdresses("37 rue du Maréchal Juin, 76130 Mont Saint Aignan", "Rouen, France");
 
@@ -63,7 +61,7 @@ public class ResumeController {
         list.resumes.add(resumes2);
         list.resumes.add(resumes3);
 
-    }
+    }*/
 
     /**
      * Get avec un identifiant
@@ -73,10 +71,9 @@ public class ResumeController {
     @RequestMapping(value="{id}", method = RequestMethod.GET)
     public @ResponseBody
     Resume getResumeInXMLById(@PathVariable String id){
+        //return list.resumes.get(Integer.parseInt(id));
 
-        return list.resumes.get(Integer.parseInt(id));
-
-     /*   Adresse adresseList = new Adresse();
+        Adresse adresseList = new Adresse();
         adresseList.addAdresses("37 rue du Maréchal Juin, 76130 Mont Saint Aignan", "Rouen, France");
 
         ExperciencePro mesexpList = new ExperciencePro();
@@ -103,8 +100,15 @@ public class ResumeController {
         Resume resumes1 = new Resume("AMARA", "Safia", "10-10-1990", "07.53.62.66.35", adresseList,
                 "Jeune étudiante avec Bac+4 en phase de démmarage souhaitant evoluer et gagner de l'expérience.",
                 mesexpList, scolaritesList, "", languesList, competenceInfoList);
+        Resume resumes2 = new Resume("LIBERT", "Yoan", "07-07-1989", "06.61.57.76.59", adresseList,
+                "Etudiant en Informatique souhaitant evoluer dans le domaine du développement.",
+                mesexpList, scolaritesList, "Interprète pour les langues : Kabyle, Anglais", languesList, competenceInfoList);
+        Resume resumes3 = new Resume("MOUGEN", "Ashtaka", "17-01-1990", "07.53.77.77.62", adresseList,
+                "Tester le marché de travail afin d'avoir de l'expérience.",
+                mesexpList, scolaritesList, "Vente et achat", languesList, competenceInfoList);
 
-        return resumes1;*/
+        list.resumes.add(resumes1);
+        return resumes1;
     }
 
     /**
@@ -113,20 +117,20 @@ public class ResumeController {
      */
     @RequestMapping(method = RequestMethod.GET)
     public @ResponseBody
-    List<Resume> getResumeInXML(){
+    ResumeList getResumeInXML(){
 
-        return list.resumes;
+        return list;
     }
 
     /**
      * Delete un resume avec un identifiant
      * @param id
      */
-   /* @RequestMapping(value="{id}", method = RequestMethod.DELETE)
+    @RequestMapping(value="{id}", method = RequestMethod.DELETE)
     public @ResponseBody
     void deleteResumeInXMLById(@PathVariable String id){
         list.resumes.remove(Integer.parseInt(id));
-    }*/
+    }
 
     /**
      * PUT, Ajout d'un resume
