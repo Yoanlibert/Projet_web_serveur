@@ -3,6 +3,8 @@ package Rest;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
 
+import java.util.List;
+
 /**
  * Created by Amara Safia on 08/04/14.
  */
@@ -68,12 +70,13 @@ public class ResumeController {
      * @param id
      * @return
      */
-  /*  @RequestMapping(value="{id}", method = RequestMethod.GET)
+    @RequestMapping(value="{id}", method = RequestMethod.GET)
     public @ResponseBody
     Resume getResumeInXMLById(@PathVariable String id){
-        //return list.resumes.get(Integer.parseInt(id));
 
-        Adresse adresseList = new Adresse();
+        return list.resumes.get(Integer.parseInt(id));
+
+     /*   Adresse adresseList = new Adresse();
         adresseList.addAdresses("37 rue du Maréchal Juin, 76130 Mont Saint Aignan", "Rouen, France");
 
         ExperciencePro mesexpList = new ExperciencePro();
@@ -101,8 +104,8 @@ public class ResumeController {
                 "Jeune étudiante avec Bac+4 en phase de démmarage souhaitant evoluer et gagner de l'expérience.",
                 mesexpList, scolaritesList, "", languesList, competenceInfoList);
 
-        return resumes1;
-    }*/
+        return resumes1;*/
+    }
 
     /**
      * Get, toute la liste de resumes
@@ -110,9 +113,9 @@ public class ResumeController {
      */
     @RequestMapping(method = RequestMethod.GET)
     public @ResponseBody
-    ResumeList getResumeInXML(){
+    List<Resume> getResumeInXML(){
 
-        return list;
+        return list.resumes;
     }
 
     /**
