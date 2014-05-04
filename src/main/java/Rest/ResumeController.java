@@ -107,7 +107,7 @@ public class ResumeController {
                 "Tester le marché de travail afin d'avoir de l'expérience.",
                 mesexpList, scolaritesList, "Vente et achat", languesList, competenceInfoList);
 
-        list.resumes.add(resumes1);
+        //list.resumes.add(resumes1);
         return resumes1;
     }
 
@@ -115,22 +115,22 @@ public class ResumeController {
      * Get, toute la liste de resumes
      * @return
      */
-    @RequestMapping(method = RequestMethod.GET)
+    /*@RequestMapping(method = RequestMethod.GET)
     public @ResponseBody
     ResumeList getResumeInXML(){
 
         return list;
-    }
+    }*/
 
     /**
      * Delete un resume avec un identifiant
      * @param id
      */
-    @RequestMapping(value="{id}", method = RequestMethod.DELETE)
+    /*@RequestMapping(value="{id}", method = RequestMethod.DELETE)
     public @ResponseBody
     void deleteResumeInXMLById(@PathVariable String id){
         list.resumes.remove(Integer.parseInt(id));
-    }
+    }*/
 
     /**
      * PUT, Ajout d'un resume
