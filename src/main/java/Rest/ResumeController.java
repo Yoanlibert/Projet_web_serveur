@@ -108,7 +108,7 @@ public class ResumeController {
      * Get, toute la liste de resumes
      * @return
      */
-    @RequestMapping(value="{*}", method = RequestMethod.GET)
+    @RequestMapping(method = RequestMethod.GET)
     public @ResponseBody
     ResumeList getResumeInXML(){
         return list;
