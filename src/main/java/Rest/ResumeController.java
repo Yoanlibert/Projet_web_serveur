@@ -23,7 +23,7 @@ public class ResumeController {
      */
 
     public void addResume(){
-        /*Adresse adresseList = new Adresse();
+        Adresse adresseList = new Adresse();
         adresseList.addAdresses("37 rue du Maréchal Juin, 76130 Mont Saint Aignan", "Rouen, France");
 
         ExperciencePro mesexpList = new ExperciencePro();
@@ -59,7 +59,7 @@ public class ResumeController {
 
         list.resumes.add(resumes1);
         list.resumes.add(resumes2);
-        list.resumes.add(resumes3);*/
+        list.resumes.add(resumes3);
 
     }
 
@@ -68,7 +68,7 @@ public class ResumeController {
      * @param id
      * @return
      */
-    @RequestMapping(value="{id}", method = RequestMethod.GET)
+   /* @RequestMapping(value="{id}", method = RequestMethod.GET)
     public @ResponseBody
     Resume getResumeInXMLById(@PathVariable String id){
         //return list.resumes.get(Integer.parseInt(id));
@@ -102,17 +102,18 @@ public class ResumeController {
                 mesexpList, scolaritesList, "", languesList, competenceInfoList);
 
         return resumes1;
-    }
+    }*/
 
     /**
      * Get, toute la liste de resumes
      * @return
      */
-   /* @RequestMapping(value="{*}", method = RequestMethod.GET)
+    @RequestMapping(method = RequestMethod.GET)
     public @ResponseBody
     ResumeList getResumeInXML(){
+        ResumeList list = new ResumeList();
         return list;
-    }*/
+    }
 
     /**
      * Delete un resume avec un identifiant
