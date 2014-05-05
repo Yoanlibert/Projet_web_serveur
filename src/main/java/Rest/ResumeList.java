@@ -1,6 +1,8 @@
 package Rest;
 
+import javax.xml.bind.annotation.XmlElement;
 import javax.xml.bind.annotation.XmlRootElement;
+import java.util.LinkedList;
 import java.util.List;
 
 /**
@@ -10,5 +12,9 @@ import java.util.List;
 @XmlRootElement
 public class ResumeList {
 
-    public List<Resume> resumes;
+    public List<Resume> resumes =new LinkedList<Resume>();
+    @XmlElement
+    public List<Resume> getList(){
+        return resumes;
+    }
 }

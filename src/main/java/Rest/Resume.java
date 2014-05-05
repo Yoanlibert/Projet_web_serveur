@@ -1,5 +1,6 @@
 package Rest;
 
+import javax.xml.bind.annotation.XmlElement;
 import javax.xml.bind.annotation.XmlRootElement;
 import javax.xml.bind.annotation.XmlType;
 
@@ -33,24 +34,25 @@ public class Resume {
     public Resume(){
 
     }
-
+    @XmlElement
     public String getName() {
         return name;
     }
-
+    @XmlElement
     public String getPrenom() {
         return prenom;
     }
 
     //@XmlJavaTypeAdapter(DateAdapter.class)
+    @XmlElement
     public String getDateNaissance() {
         return dateNaissance;
     }
-
+    @XmlElement
     public String getNumTel() {
         return numTel;
     }
-
+    @XmlElement
     public String getObjectif() {
         return objectif;
     }
@@ -59,6 +61,7 @@ public class Resume {
         return adresses;
     }*/
 
+    @XmlElement
     public String getCompetence() {
         return competence;
     }

@@ -76,8 +76,11 @@
       <file leaf-file-name="Resume.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Rest/Resume.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="91" selection-start="374" selection-end="374" vertical-scroll-proportion="0.0" vertical-offset="170" max-vertical-offset="1904">
-              <folding />
+            <state line="88" column="16" selection-start="2039" selection-end="2039" vertical-scroll-proportion="0.0" vertical-offset="979" max-vertical-offset="1581">
+              <folding>
+                <element signature="e#2072#2073#0" expanded="true" />
+                <element signature="e#2116#2117#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -94,8 +97,12 @@
       <file leaf-file-name="ResumeController.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/Rest/ResumeController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="113" column="0" selection-start="5471" selection-end="5471" vertical-scroll-proportion="0.8733706" vertical-offset="1435" max-vertical-offset="2669">
-              <folding />
+            <state line="121" column="7" selection-start="4370" selection-end="4370" vertical-scroll-proportion="0.58932716" vertical-offset="1803" max-vertical-offset="2312">
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#3775#3776#0" expanded="true" />
+                <element signature="e#3803#3804#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -121,7 +128,7 @@
       <file leaf-file-name="Langues.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Rest/Langues.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="11" selection-start="280" selection-end="280" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="442">
+            <state line="15" column="11" selection-start="280" selection-end="280" vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="544">
               <folding />
             </state>
           </provider>
@@ -148,7 +155,7 @@
       <file leaf-file-name="ResumeList.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Rest/ResumeList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="13" selection-start="165" selection-end="165" vertical-scroll-proportion="0.0" vertical-offset="170" max-vertical-offset="340">
+            <state line="20" column="0" selection-start="395" selection-end="395" vertical-scroll-proportion="0.0" vertical-offset="340" max-vertical-offset="442">
               <folding />
             </state>
           </provider>
@@ -168,13 +175,14 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/src/main/resources/spring-context.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/Rest/ResumeController.java" />
         <option value="$PROJECT_DIR$/src/main/java/Rest/CompetenceInfo.java" />
         <option value="$PROJECT_DIR$/src/main/java/Rest/ExperciencePro.java" />
         <option value="$PROJECT_DIR$/src/main/java/Rest/Langues.java" />
         <option value="$PROJECT_DIR$/src/main/java/Rest/Scolarites.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Rest/Resume.java" />
         <option value="$PROJECT_DIR$/src/main/java/Rest/Adresse.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Rest/ResumeList.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Rest/Resume.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Rest/ResumeController.java" />
       </list>
     </option>
   </component>
@@ -246,6 +254,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -355,7 +364,6 @@
         </subPane>
       </pane>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -649,12 +657,16 @@
       <workItem from="1399211926337" duration="2232000" />
       <workItem from="1399214987881" duration="765000" />
       <workItem from="1399223356759" duration="475000" />
-      <workItem from="1399223895924" duration="42000" />
+      <workItem from="1399223895924" duration="674000" />
+      <workItem from="1399238534387" duration="1559000" />
+      <workItem from="1399240379766" duration="1984000" />
+      <workItem from="1399242452027" duration="1799000" />
+      <workItem from="1399244314271" duration="3541000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="30924000" />
+    <option name="totallyTimeSpent" value="40439000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="0" width="1378" height="728" extended-state="0" />
@@ -681,7 +693,7 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18863636" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.18387097" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17755444" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -742,7 +754,10 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/Rest/Resume.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="23" column="20" selection-start="603" selection-end="603" vertical-scroll-proportion="0.0" vertical-offset="391" max-vertical-offset="1088">
-          <folding />
+          <folding>
+            <element signature="e#2072#2073#0" expanded="true" />
+            <element signature="e#2116#2117#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -756,7 +771,11 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/Rest/ResumeController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="35" column="23" selection-start="926" selection-end="926" vertical-scroll-proportion="0.0" vertical-offset="595" max-vertical-offset="969">
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#3775#3776#0" expanded="true" />
+            <element signature="e#3803#3804#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -791,14 +810,21 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/Rest/Resume.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1139">
-          <folding />
+          <folding>
+            <element signature="e#2072#2073#0" expanded="true" />
+            <element signature="e#2116#2117#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Rest/ResumeController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="35" column="23" selection-start="926" selection-end="926" vertical-scroll-proportion="0.0" vertical-offset="595" max-vertical-offset="884">
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#3775#3776#0" expanded="true" />
+            <element signature="e#3803#3804#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -833,14 +859,21 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/Rest/Resume.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="58" column="11" selection-start="1101" selection-end="1101" vertical-scroll-proportion="0.0" vertical-offset="986" max-vertical-offset="1139">
-          <folding />
+          <folding>
+            <element signature="e#2072#2073#0" expanded="true" />
+            <element signature="e#2116#2117#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Rest/ResumeController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="35" column="23" selection-start="926" selection-end="926" vertical-scroll-proportion="0.0" vertical-offset="595" max-vertical-offset="969">
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#3775#3776#0" expanded="true" />
+            <element signature="e#3803#3804#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -875,14 +908,21 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/Rest/Resume.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="58" column="11" selection-start="1101" selection-end="1101" vertical-scroll-proportion="0.0" vertical-offset="986" max-vertical-offset="1139">
-          <folding />
+          <folding>
+            <element signature="e#2072#2073#0" expanded="true" />
+            <element signature="e#2116#2117#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Rest/ResumeController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="25" column="51" selection-start="575" selection-end="575" vertical-scroll-proportion="0.0" vertical-offset="425" max-vertical-offset="816">
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#3775#3776#0" expanded="true" />
+            <element signature="e#3803#3804#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -903,14 +943,21 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/Rest/Resume.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="36" column="0" selection-start="628" selection-end="628" vertical-scroll-proportion="0.0" vertical-offset="612" max-vertical-offset="1139">
-          <folding />
+          <folding>
+            <element signature="e#2072#2073#0" expanded="true" />
+            <element signature="e#2116#2117#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Rest/ResumeController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="40" column="0" selection-start="1019" selection-end="1019" vertical-scroll-proportion="0.0" vertical-offset="680" max-vertical-offset="816">
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#3775#3776#0" expanded="true" />
+            <element signature="e#3803#3804#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -931,14 +978,21 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/Rest/Resume.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="27" column="0" selection-start="493" selection-end="493" vertical-scroll-proportion="0.0" vertical-offset="459" max-vertical-offset="1054">
-          <folding />
+          <folding>
+            <element signature="e#2072#2073#0" expanded="true" />
+            <element signature="e#2116#2117#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Rest/ResumeController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="24" column="52" selection-start="572" selection-end="572" vertical-scroll-proportion="0.0" vertical-offset="408" max-vertical-offset="833">
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#3775#3776#0" expanded="true" />
+            <element signature="e#3803#3804#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -959,14 +1013,21 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/Rest/Resume.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="56" column="0" selection-start="1021" selection-end="1021" vertical-scroll-proportion="0.0" vertical-offset="816" max-vertical-offset="816">
-          <folding />
+          <folding>
+            <element signature="e#2072#2073#0" expanded="true" />
+            <element signature="e#2116#2117#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Rest/ResumeController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="32" column="1" selection-start="725" selection-end="725" vertical-scroll-proportion="0.0" vertical-offset="544" max-vertical-offset="663">
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#3775#3776#0" expanded="true" />
+            <element signature="e#3803#3804#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1001,51 +1062,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Rest/CompetenceInfo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="11" selection-start="264" selection-end="264" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="459">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="952">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Rest/Resume.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="91" selection-start="374" selection-end="374" vertical-scroll-proportion="0.0" vertical-offset="170" max-vertical-offset="1904">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Rest/ResumeList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="13" selection-start="165" selection-end="165" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="323">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Rest/ExperciencePro.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="11" selection-start="264" selection-end="264" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="459">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Rest/Scolarites.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="11" selection-start="260" selection-end="260" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="442">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Rest/Adresse.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="3" selection-start="210" selection-end="210" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1445">
           <folding />
         </state>
       </provider>
@@ -1057,10 +1076,59 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Rest/ExperciencePro.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="11" selection-start="264" selection-end="264" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="459">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Rest/CompetenceInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="11" selection-start="264" selection-end="264" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="459">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Rest/Adresse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="3" selection-start="210" selection-end="210" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1445">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Rest/Scolarites.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="11" selection-start="260" selection-end="260" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="442">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Rest/ResumeList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="0" selection-start="395" selection-end="395" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="391">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Rest/Resume.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="88" column="16" selection-start="2039" selection-end="2039" vertical-scroll-proportion="0.0" vertical-offset="979" max-vertical-offset="1581">
+          <folding>
+            <element signature="e#2072#2073#0" expanded="true" />
+            <element signature="e#2116#2117#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Rest/ResumeController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="113" column="0" selection-start="5471" selection-end="5471" vertical-scroll-proportion="0.8733706" vertical-offset="1435" max-vertical-offset="2669">
-          <folding />
+        <state line="121" column="7" selection-start="4370" selection-end="4370" vertical-scroll-proportion="0.58932716" vertical-offset="1803" max-vertical-offset="2312">
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#3775#3776#0" expanded="true" />
+            <element signature="e#3803#3804#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
