@@ -13,6 +13,7 @@ import java.util.List;
 public class ResumeList {
 
     public List<Resume> resumes =new LinkedList<Resume>();
+
     @XmlElement
     public List<Resume> getList(){
         return resumes;

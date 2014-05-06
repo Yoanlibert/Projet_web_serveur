@@ -12,6 +12,7 @@ import javax.xml.bind.annotation.XmlType;
                       "mesexp", "scolarites", "competence", "langues", "competenceInfo"})*/
 public class Resume {
 
+    private String id;
     private String name;
     private String prenom;
     private String dateNaissance;
@@ -34,24 +35,34 @@ public class Resume {
     public Resume(){
 
     }
+
+    @XmlElement
+    public String getId() {
+        return id;
+    }
+
     @XmlElement
     public String getName() {
         return name;
     }
+
     @XmlElement
     public String getPrenom() {
         return prenom;
     }
 
     //@XmlJavaTypeAdapter(DateAdapter.class)
+
     @XmlElement
     public String getDateNaissance() {
         return dateNaissance;
     }
+
     @XmlElement
     public String getNumTel() {
         return numTel;
     }
+
     @XmlElement
     public String getObjectif() {
         return objectif;
@@ -65,6 +76,31 @@ public class Resume {
     public String getCompetence() {
         return competence;
     }
+/*
+    @XmlElement
+    public String getMesAdresses() {
+        return null;
+    }
+
+    @XmlElement
+    public String getMesexp() {
+        return null;
+    }
+
+    @XmlElement
+    public String getScolarites() {
+        return null;
+    }
+
+    @XmlElement
+    public String getLangues() {
+        return null;
+    }
+
+    @XmlElement
+    public String getCompetenceInfo() {
+        return null;
+    }*/
 
     public void setName(String name) {
         this.name = name;
@@ -90,8 +126,9 @@ public class Resume {
         this.competence = competence;
     }
 
-    public Resume(String name, String prenom, String dateNaissance, String numTel, Adresse adresse, String objectif, ExperciencePro mesexp, Scolarites scolarites,String competence, Langues langues, CompetenceInfo competenceInfo ){
+    public Resume(String id, String name, String prenom, String dateNaissance, String numTel, Adresse adresse, String objectif, ExperciencePro mesexp, Scolarites scolarites,String competence, Langues langues, CompetenceInfo competenceInfo ){
         //super();
+        this.id=id;
         this.name=name;
         this.prenom=prenom;
         this.dateNaissance=dateNaissance;
@@ -105,5 +142,6 @@ public class Resume {
         this.competenceInfo=competenceInfo;
 
     }
+
 
 }
